@@ -1,6 +1,6 @@
 // Freerice people feeder math
 // Pls no blame me
-var submitDuration = 1; // second
+var submitDuration = 2; // second
 var submit = function () {
 	var question = $('.question-link b').text().replace("x", "*");
 	var correctAnswer = parseInt(eval(question));
